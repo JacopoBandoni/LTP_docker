@@ -1,0 +1,8 @@
+prefix=/root/catkin_ws/devel
+
+Name: planning
+Description: Description of planning
+Version: 0.0.0
+Cflags: -I/root/catkin_ws/devel/include
+Libs: -L${prefix}/lib -lplanning
+Requires: roscpp rospy std_msgs
